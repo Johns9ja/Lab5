@@ -11,7 +11,6 @@ class Main {
 
    student1.print(); //call print method and print student1 results
 
-
    Student student2 = new Student(); //create new student object
 
    student2.setName("Jacob Johnson");  //set name  
@@ -26,7 +25,6 @@ class Main {
    gpas.add(student2.gpa); //add student2 gpa
 
    double sum = 0; //create and initialize sum variable
-
 
    for(double i : gpas) {  //for loop to sum GPA's in ArrayList
      sum = sum + i; //add sum variable + each GPA value
