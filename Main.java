@@ -33,6 +33,6 @@ class Main {
    }
 
   double avg = sum / gpas.size(); //create average variable and use sum from for loop and size method to calculate average.
-  System.out.println("The average GPA is " + avg); //print average gpa
+  System.out.println("The average GPA is " + avg); //print average gpa for students
   }
 }
